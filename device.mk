@@ -337,7 +337,7 @@ PRODUCT_PACKAGES += PowerOffAlarm
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-libperfmgr \
+    android.hardware.power-service.lineage-libperfmgr \
     android.hardware.power@1.3.vendor
 
 PRODUCT_PACKAGES += \
@@ -432,7 +432,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/mediatek \
-    hardware/xiaomi
+    hardware/mediatek/libmtkperf_client \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/xiaomi \
+
 
 # SoundTrigger
 PRODUCT_PACKAGES += \
